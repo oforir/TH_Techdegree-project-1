@@ -57,7 +57,7 @@ a:hover {
 
 header {
   text-align: center;
-  background: url('images/portland.jpg') no-repeat top center ;
+  background: url('images/background_img.jpg') no-repeat top center ;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
@@ -73,6 +73,28 @@ header .profile-image {
   border: 3px solid white;
   transition: all .5s;
 }
+.header-title {
+  background-color: none;
+  font-size: 3em;
+  text-transform: capitalize;
+  color: white;
+  padding: 0 200px;
+  max-block-size: 400px;
+} 
+.intro {
+  text-align: left;
+  padding: 0 200px;
+  max-width: 90%;
+  
+
+}
+
+
+
+#inspiration-header {
+  background-color: green;
+}
+
 header .profile-image:hover {
   transform: scale(1.2) rotate(5deg);
 }
